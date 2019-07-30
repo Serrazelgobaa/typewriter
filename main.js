@@ -1,17 +1,5 @@
-
-
-/*const typeWriter = () => {
-	if(i < texteArray.length) {
-		paragraphe.insertAdjacentHTML('beforeend',texteArray[i]);
-		i++;
-		setTimeout(typeWriter,80);
-	}
-};
-
-typeWriter();*/
-
-	let i = 0;
-	const paragraphe = document.getElementById('container_writer');
+let i = 0;
+const paragraphe = document.getElementById('container_writer');
 
 const typeWriter = () => {
 
